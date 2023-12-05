@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"flag"
+	"fmt"
+)
 
 func main(){
-	fmt.Println("smooooooooth operator")
-	fmt.Println("smooooooooth programmer")
+	prof := flag.String("profession", "operator","professional to be greeted")
+	flag.Parse()
+	fmt.Println("smooooooooth ", prof)
+	
 }
