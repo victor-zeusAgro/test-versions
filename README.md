@@ -15,3 +15,5 @@ https://semantic-release.gitbook.io/semantic-release/
 
 - fazer os commits seguindo a nomenclatura do angular
 	- https://github.com/angular/angular/blob/main/CONTRIBUTING.md
+
+something
