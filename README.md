@@ -22,3 +22,5 @@ algum refactor
 
 $ npm install @semantic-release/changelog -D 
 consegui instalar fazer funcionar
+
+fiz alguma coisa de CI
