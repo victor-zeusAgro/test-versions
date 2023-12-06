@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/victor-zeusAgro/test-versions/compare/v2.2.0...v2.2.1) (2023-12-06)
+
+
+### Bug Fixes
+
+* **core:** fix some bug ([17d0bf9](https://github.com/victor-zeusAgro/test-versions/commit/17d0bf9d9e5a7dded05883862cdee4fc5c2e5fe3))
+
 # [2.2.0](https://github.com/victor-zeusAgro/test-versions/compare/v2.1.0...v2.2.0) (2023-12-06)
 
 
