@@ -19,3 +19,5 @@ https://semantic-release.gitbook.io/semantic-release/
 something.
 criei um ci/cd
 algum refactor
+
+$ npm install @semantic-release/changelog -D
