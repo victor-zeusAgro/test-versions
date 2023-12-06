@@ -34,3 +34,4 @@ tentando outra abordagem para o squash merge.
 de novo
 de novo
 vamos lá
+teste
