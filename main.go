@@ -10,4 +10,5 @@ func main(){
 	flag.Parse()
 	fmt.Println("smooooooooth ", prof)
 	fmt.Println("hello smooooooooth ", prof)
+	fmt.Println("hello again smooooooooth ", prof)
 }
