@@ -1,7 +1,5 @@
-const { execSync } = require('child_process');
-
 const config = {
-  branches: ['main'], // Apenas executa na branch "main"
+  branches: ['main'],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
@@ -11,22 +9,26 @@ const config = {
         changelogFile: 'CHANGELOG.md',
       },
     ],
-    // Script para realizar o squash dos commits antes do commit de lançamento
     [
       '@semantic-release/git',
       {
         assets: ['CHANGELOG.md', 'package.json'],
         message: 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-        // Executa um script para realizar o squash dos commits antes do commit de lançamento
-        // Isso vai aglutinar os commits em um único commit de lançamento
-        // Certifique-se de ajustar o comando conforme necessário para o seu fluxo de trabalho
-        beforeRelease: 'git merge --squash HEAD~${commits.length} && git commit -m "chore(release): ${nextRelease.version}"',
+        // Adicione a opção para utilizar o squash merge
+        // Substitua `develop` pelo nome da sua branch
+        // Certifique-se de que o squash merge está habilitado nessa branch
+        // Você também pode precisar ajustar o remote
+        'mergeStrategy': 'squash',
+        'mergeOptions': '--squash --no-ff --no-commit',
+        'releaseBranch': 'main'
       },
     ],
+    '@semantic-release/github',
   ],
 };
 
 module.exports = config;
+
 
   /*
 const config = {
