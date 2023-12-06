@@ -28,3 +28,5 @@ fix algum bug fix
 testando em uma branch diferente
 testando em uma branch diferente novamente. Para squash merge o comentário do commit dever ser feito 
 no campo title do squash merge. na real vou descobrir agora kkk
+
+vamos lá de novo no squash.
