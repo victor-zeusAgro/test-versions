@@ -20,4 +20,5 @@ something.
 criei um ci/cd
 algum refactor
 
-$ npm install @semantic-release/changelog -D
+$ npm install @semantic-release/changelog -D 
+consegui instalar fazer funcionar
