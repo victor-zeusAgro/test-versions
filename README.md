@@ -30,3 +30,5 @@ testando em uma branch diferente novamente. Para squash merge o comentário do c
 no campo title do squash merge. na real vou descobrir agora kkk
 
 tentando outra abordagem para o squash merge.
+
+de novo
