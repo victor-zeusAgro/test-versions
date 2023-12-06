@@ -32,3 +32,4 @@ no campo title do squash merge. na real vou descobrir agora kkk
 tentando outra abordagem para o squash merge.
 
 de novo
+de novo
